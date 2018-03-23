@@ -46,10 +46,36 @@
 #     print("Impar")
 
 #6-Faça um algoritmo que peça um número e se ele for par some 5, se não, some 8.
-valor = int(input("Digite um número:"))
+# valor = int(input("Digite um número:"))
+#
+# if valor %2==0:
+#     print(valor + 5)
+#
+# else:
+#     print(valor + 8)
 
-if valor %2==0:
-    print(valor + 5)
+#7-Crie um programa que peça uma nota de trabalho e uma de prova (as duas de 0 a 100). Se a média aritmética das notas for maior ou igual a 60, escreva “Aprovado”, se não, “Reprovado”.
+# trabalho = int(input("Nota do trabalho:"))
+# prova = int(input("Nota da prova:"))
+#
+# nota=(trabalho + prova)/2
+#
+# if nota >=60:
+#     print("Aprovado")
+#
+# else:
+#     print("Reprovado")
 
-else:
-    print(valor + 8)
+#8-Construa um programa que recebe três valores, A, B e C. Em seguida, apresente na tela somente o maior deles.
+a = int(input("Valor A:"))
+b = int(input("Valor B:"))
+c = int(input("Valor C:"))
+
+if a > b and c:
+    print("O maior é A")
+
+elif b > a and c:
+    print("O maior é B")
+
+elif c > a and b:
+    print("O maior é C")
